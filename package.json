@@ -1,0 +1,32 @@
+{
+  "name": "route-finder",
+  "version": "0.0.0",
+  "description": "Find patient routes through care pathways with string metrics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rw251/route-finder.git"
+  },
+  "keywords": [
+    "\"care",
+    "pathway\"",
+    "\"string",
+    "metric\"",
+    "pathway",
+    "patient",
+    "\"health",
+    "informatics\""
+  ],
+  "author": "Richard Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rw251/route-finder/issues"
+  },
+  "homepage": "https://github.com/rw251/route-finder",
+  "dependencies": {
+    "graphlib-dot": "^0.6.1"
+  }
+}
