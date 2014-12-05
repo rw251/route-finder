@@ -4,7 +4,7 @@
   "description": "Find patient routes through care pathways with string metrics",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
