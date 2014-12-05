@@ -1,0 +1,16 @@
+digraph acute_stroke_pathway {
+    a[label="Stroke"];
+    b[label="Arrive hospital"];
+    c[label="First seen"];
+    d[label="Brain imaging"];
+    e[label="Thrombolysis"];
+    f[label="Arrive stroke bed"];
+    g[label="Follow up scan"];
+    h[label="Discharge stroke unit"];
+    i[label="Discharge hospital"];
+    j[label="Arrive stroke bed"];
+    a -> b -> c -> d -> e -> f -> g -> h -> i;
+    c -> i;
+    c -> j -> h;
+    d -> j;
+}
