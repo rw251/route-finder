@@ -30,7 +30,7 @@
     "graphlib-dot": "*"
   },
   "devDependencies": {
-    "chai": "^1.10.0",
+    "chai": "*",
     "mocha": "2.*"
   }
 }
