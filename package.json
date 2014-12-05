@@ -31,6 +31,6 @@
   },
   "devDependencies": {
     "chai": "*",
-    "mocha": "2.*"
+    "mocha": "*"
   }
 }
