@@ -4,7 +4,9 @@
   "description": "Find patient routes through care pathways with string metrics",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha test/pathway-routes.test.js",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "repository": {
     "type": "git",
@@ -32,8 +34,7 @@
   "devDependencies": {
     "chai": "*",
     "coveralls": "^2.11.2",
-    "jscoverage": "^0.5.9",
-    "mocha": "*",
-    "mocha-lcov-reporter": "0.0.1"
+    "istanbul": "^0.3.4",
+    "mocha": "*"
   }
 }
