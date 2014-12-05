@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/rw251/route-finder",
   "dependencies": {
-    "graphlib-dot": "^0.6.1"
+    "graphlib-dot": "*"
   },
   "devDependencies": {
     "chai": "^1.10.0",
