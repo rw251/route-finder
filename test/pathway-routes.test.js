@@ -1,5 +1,5 @@
 var expect = require("chai").expect;
-var routes = require("../lib/pathway-routes.js");
+var routes = require("../lib-cov/pathway-routes.js");
 
 describe("Routes", function() {
     describe("#getRoutes()", function(){
