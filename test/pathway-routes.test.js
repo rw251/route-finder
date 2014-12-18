@@ -21,10 +21,10 @@ describe("Routes", function() {
             });
         });
     });
-    describe(".getRouteStrings()", function(){
+    describe(".getInitialNodes()", function(){
         it("should return an empty array for an empty pathway", function(done){
             var graph = { nodes: function(){return [];}, edges: function(){return [];} };
-            routes.getRouteStrings(graph, null, function(err, data){
+            routes.getInitialNodes(graph, null, function(err, data){
                 if(err) return done(err);
 
                 expect(data).to.be.instanceof(Array);
