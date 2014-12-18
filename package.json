@@ -4,6 +4,7 @@
   "description": "Find patient routes through care pathways with string metrics",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "mocha",
     "coverage": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha test/pathway-routes.test.js",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
@@ -29,7 +30,9 @@
   },
   "homepage": "https://github.com/rw251/route-finder",
   "dependencies": {
-    "graphlib-dot": "*"
+    "graphlib-dot": "*",
+    "lodash": "^2.4.1",
+    "natural": "^0.1.29"
   },
   "devDependencies": {
     "chai": "*",
